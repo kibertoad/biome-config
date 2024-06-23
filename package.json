@@ -1,0 +1,26 @@
+{
+	"name": "@kibertoad/biome-config",
+	"version": "1.0.0",
+	"description": "",
+	"type": "module",
+	"scripts": {
+		"format": "biome check --write ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/kibertoad/biome-config.git"
+	},
+	"files": [
+		"configs/biome-package.json",
+		"LICENSE",
+		"README.md"
+	],
+	"homepage": "https://github.com/kibertoad/biome-config",
+	"exports": {
+		"./*": ["./configs/*.json"]
+	},
+	"private": false,
+	"devDependencies": {
+		"@biomejs/biome": "^1.8.2"
+	}
+}
