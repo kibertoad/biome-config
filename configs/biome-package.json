@@ -31,6 +31,8 @@
 		"include": [
 			"./test/**/*.ts",
 			"./src/**/*.ts",
+			"./lib/**/*.ts",
+			"./index.ts",
 			"./scripts/**/*.ts",
 			"./biome.json",
 			"./package.json"
