@@ -10,11 +10,7 @@
 		"type": "git",
 		"url": "https://github.com/kibertoad/biome-config.git"
 	},
-	"files": [
-		"configs/biome-package.json",
-		"LICENSE",
-		"README.md"
-	],
+	"files": ["configs/biome-package.json", "LICENSE", "README.md"],
 	"homepage": "https://github.com/kibertoad/biome-config",
 	"exports": {
 		"./*": ["./configs/*.json"]
