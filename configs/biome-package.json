@@ -67,7 +67,8 @@
 				"useExportType": "error",
 				"useNodejsImportProtocol": "error",
 				"useForOf": "error",
-				"useImportType": "error"
+				"useImportType": "error",
+				"useExponentiationOperator": "off"
 			},
 			"correctness": {
 				"noConstAssign": "error",
