@@ -1,13 +1,20 @@
-# biome-config
+# `@kibertoad/biome-config`
+
 ToadStack config for Biome
 
 ## Getting started
 
-You can use the following biome.json configuration:
+1. Install required dependencies
 
-```json
-{
-	"$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
-	"extends": ["./node_modules/@kibertoad/biome-config/configs/biome-package.json"]
-}
-```
+   ```sh
+   npm install @biomejs/biome @kibertoad/biome-config
+   ```
+
+2. Create a `biome.json` configuration file
+
+   ```json
+   {
+     "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+     "extends": ["./node_modules/@kibertoad/biome-config/configs/biome-package.json"]
+   }
+   ```
