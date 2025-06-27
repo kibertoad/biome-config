@@ -14,7 +14,7 @@
   },
   "homepage": "https://github.com/kibertoad/biome-config",
   "files": [
-    "configs"
+    "configs/biome-package.json"
   ],
   "exports": {
     "./*": [
