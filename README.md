@@ -7,7 +7,7 @@ ToadStack config for Biome
 1. Install required dependencies
 
    ```sh
-   npm install @biomejs/biome @kibertoad/biome-config
+   npm install --save-dev @biomejs/biome @kibertoad/biome-config
    ```
 
 2. Create a `biome.json` configuration file
