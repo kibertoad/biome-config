@@ -1,22 +1,30 @@
 {
-	"name": "@kibertoad/biome-config",
-	"version": "1.2.1",
-	"description": "",
-	"type": "module",
-	"scripts": {
-		"format": "biome check --write ."
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/kibertoad/biome-config.git"
-	},
-	"files": ["configs/biome-package.json", "LICENSE", "README.md"],
-	"homepage": "https://github.com/kibertoad/biome-config",
-	"exports": {
-		"./*": ["./configs/*.json"]
-	},
-	"private": false,
-	"devDependencies": {
-		"@biomejs/biome": "^1.8.2"
-	}
+  "name": "@kibertoad/biome-config",
+  "version": "1.2.1",
+  "description": "",
+  "type": "module",
+  "private": false,
+  "scripts": {
+    "format": "biome check .",
+    "format:fix": "biome check . --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kibertoad/biome-config.git"
+  },
+  "homepage": "https://github.com/kibertoad/biome-config",
+  "files": [
+    "configs/biome-package.json"
+  ],
+  "exports": {
+    "./*": [
+      "./configs/*.json"
+    ]
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.0.5"
+  },
+  "peerDependencies": {
+    "@biomejs/biome": "^2.0.5"
+  }
 }
